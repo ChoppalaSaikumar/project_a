@@ -1,0 +1,20 @@
+/* Styles for the card component */
+.candidate-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.candidate-card .card-body {
+  flex: 1;
+}
+
+.candidate-card .card-img-top {
+  object-fit: cover; /* Ensures image covers the area without distortion */
+  height: 300px; /* Adjusted height to fit better */
+}
+
+.candidate-card .btn.active {
+  background-color: #007bff; /* Primary color for the selected button */
+  border-color: #007bff;
+}
